@@ -44,5 +44,8 @@ public:
 };
 
 int main(){
-	
+	pelajar siswa("Andi Laksono", "Laki-Laki", "SMAN 1 Bantul");
+	cout << siswa.perkenalan();
+
+	return 0;
 }

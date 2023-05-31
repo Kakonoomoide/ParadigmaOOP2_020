@@ -36,6 +36,8 @@ int main(){
 
 	orang = &a;
 	orang->pesan();
+	//orang->cetak();
+
 	orang = &b;
 	orang->pesan();
 	//a.seseorang::pesan();	//Memanggil method yang berada di class orang tua

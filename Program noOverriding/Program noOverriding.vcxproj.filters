@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Program noOverriding.cpp">
+    <ClCompile Include="noOverriding.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

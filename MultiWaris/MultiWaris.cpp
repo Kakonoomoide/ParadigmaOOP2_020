@@ -19,11 +19,11 @@ public:
 	string jeniskelamin;
 
 	manusia(string pJenisKelamin) : jeniskelamin(pJenisKelamin) {
-		cout << "Orang dibuat\n" << endl;
+		cout << "manusia dibuat\n" << endl;
 	}
 
 	~manusia() {
-		cout << "Orang dihapus\n" << endl;
+		cout << "manusia dihapus\n" << endl;
 	}
 };
 

@@ -30,5 +30,8 @@ class lia : public seseorang {
 
 
 int main(){
+	seseorang* orang;
+	joko a;
+	lia b;
     
 }

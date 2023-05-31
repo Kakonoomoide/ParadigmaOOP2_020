@@ -13,8 +13,18 @@ public:
 	}
 };
 
-
-
 int main(){
+	remotelampu lampuRumah;
 
+	lampuRumah.SetSaklarNo(0, "Lampu teras Rumah");
+	lampuRumah.SetSaklarNo(1, "Lampu ruang Tamu");
+	lampuRumah.SetSaklarNo(2, "Lampu kamar Tidur");
+	lampuRumah.SetSaklarNo(3, "Lampu Dapur");
+
+	cout << lampuRumah.GetSaklarNo(0) << endl;
+	cout << lampuRumah.GetSaklarNo(1) << endl;
+	cout << lampuRumah.GetSaklarNo(2) << endl;
+	cout << lampuRumah.GetSaklarNo(3) << endl;
+
+	return 0;
 }
